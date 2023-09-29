@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="299dp"
+        android:layout_height="42dp"
+        android:background="@drawable/black_round_edit_text"
+        android:gravity="center"
+        android:hint="Enter Your Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#050505"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#0C0C0C"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupname" />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="157dp"
+
+        android:layout_height="39dp"
+        android:background="@drawable/blue_round_button"
+        android:text="Signup"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="223dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/button_round"
+        android:text="Already Registered ? Login Here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupname"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="299dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/black_round_edit_text"
+        android:gravity="center"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="#131212"
+        android:textColorHint="#141414"
+        app:layout_constraintBottom_toBottomOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="297dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/black_round_edit_text"
+        android:gravity="center"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColor="#050505"
+        android:textColorHighlight="#111111"
+        android:textColorHint="#0C0C0C"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/groupname"
+        android:layout_width="196dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/edit_round"
+        android:text="User Registration"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F0111111"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

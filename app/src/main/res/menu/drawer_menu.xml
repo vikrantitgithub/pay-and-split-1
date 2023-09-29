@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="   ">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_action_logout"
+            android:title="profile" />
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/viewGroups"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="ViewGroups" />
+
+    </group>
+
+    <item android:title="More">
+
+        <menu>
+
+            <item
+                android:id="@+id/signout"
+                android:icon="@drawable/ic_action_activities"
+                android:title="SignOut" />
+
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us"
+                android:icon="@drawable/ic_action_contact"
+                />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share PayNSplit" />
+        </menu>
+
+    </item>
+
+</menu>

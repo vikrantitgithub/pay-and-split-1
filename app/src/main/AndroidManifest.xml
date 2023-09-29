@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paynsplit">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="false"
+        android:roundIcon="@drawable/circle_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".viewGroupMembers"></activity>
+        <activity android:name=".allGroupsSelectAnyOne" />
+        <activity android:name=".paynsplitnavi" />
+        <activity android:name=".viewGroups" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".cashPayment" />
+        <activity android:name=".forgotPasswordReset" />
+        <activity android:name=".getTheBillAndSplitTheBill" />
+        <activity android:name=".updatedetails" />
+        <activity android:name=".groupCreation" />
+        <activity android:name=".groupTransactions" />
+        <activity android:name=".allTransactions" />
+        <activity android:name=".scannigQRcode" />
+        <activity android:name=".addToDatabase" />
+        <activity android:name=".signup" />
+        <activity android:name=".upipayment" />
+        <activity android:name=".makePayment" />
+        <activity android:name=".AddMember" />
+        <activity android:name=".ViewTransaction" />
+        <activity android:name=".pay" />
+        <activity android:name=".welcome" />
+        <activity android:name=".homepage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

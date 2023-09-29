@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "155321918134",
+    "firebase_url": "https://pay-n-split-12b2b.firebaseio.com",
+    "project_id": "pay-n-split-12b2b",
+    "storage_bucket": "pay-n-split-12b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155321918134:android:1cfa9703176cc042727c17",
+        "android_client_info": {
+          "package_name": "com.example.paynsplit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155321918134-uqrqf9301ngtn6l104b818qla3crdue4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paynsplit",
+            "certificate_hash": "faad9ae05492a7ea72696ac9f8837b30400ea435"
+          }
+        },
+        {
+          "client_id": "155321918134-k24923jlra0uc1sdnkt33ao46g30r1m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9kz_LUyeLsphcJyzvopuFmr0lH_98m10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155321918134-k24923jlra0uc1sdnkt33ao46g30r1m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
